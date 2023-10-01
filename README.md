@@ -17,4 +17,5 @@ namely piecewise linearization of NLP, and use of IIS as the set of conflicting
 constraints instead of all of them.
 
 [1]: John W. Chinneck. Feasibility and Infeasibility in Optimization: Algorithms and Computational Methods (2008)
+
 [2]: Wang, A.J. Risk-Bounded Dynamic Scheduling of Temporal Plans (2022)
