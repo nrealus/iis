@@ -104,6 +104,8 @@ def get_iis_additive_deletion_method(
     temp = iis[i:].copy()       # type: ignore
 #    for constr in iis[i:]:      # type: ignore
     for constr in temp:         # type: ignore
+    # FIXME: need to iterate in reverse order, or else internal logic
+    # from `iis.remove` could lead to to an index being out of bounds
         expr = constr.expr
 
         iis.remove([constr])
