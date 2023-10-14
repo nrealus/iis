@@ -1,5 +1,7 @@
 # Additive-deletion filter method for IIS computation with Python-MIP
 
+/!\ UNFINISHED | NOT REALLY WELL TESTED /!\
+
 The function implemented in this module can be used to get the IIS (Irreducible
 Inconsistent Set (or Subsystem)) of an infeasible LP or MIP, in the Python-MIP library.
 But the method used can also be applied to NLPs.
